@@ -4,35 +4,40 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+ 
+  display: grid;
+  place-items: center;
   
-  
-  .form-group {
-      position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  
-  
-  
-    input {
-        padding: 0 10px;
-      width: 500px;
-      height: 7vh;
-    }
-    i {
-      position: absolute;
-    bottom: 18%;
-    right: 3%;
-     cursor: pointer;
+  form{
+margin-top: 5rem;
+    .form-group {
+        position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    
+    
+    
+      input {
+          padding: 0 10px;
+        width: 500px;
+        height: 7vh;
+        border-radius: 8px;
+        border: 1px solid #000;
+        @media screen and (max-width: 455px) {
+          width: 270px;
+          
+        }
+       
+      }
+     
+      i {
+        position: absolute;
+      bottom: 18%;
+      right: 3%;
+       cursor: pointer;
+      }
     }
   }
 }
 
-i:nth-child(4){
-    display: none;
-}
