@@ -43,12 +43,9 @@ body .form-group input {
 
 body .form-group i {
   position: absolute;
-  bottom: 10%;
+  bottom: 18%;
   right: 3%;
-}
-
-body .form-group i svg {
-  width: 25px;
+  cursor: pointer;
 }
 
 i:nth-child(4) {
