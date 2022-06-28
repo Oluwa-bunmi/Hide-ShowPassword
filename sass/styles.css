@@ -47,4 +47,23 @@ body form .form-group i {
   right: 3%;
   cursor: pointer;
 }
+
+body form .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+body form .btn button {
+  padding: 10px 20px;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
 /*# sourceMappingURL=styles.css.map */

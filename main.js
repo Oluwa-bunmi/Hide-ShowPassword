@@ -21,3 +21,15 @@ eyes.forEach((eye) =>
     }
   })
 );
+
+document.getElementById("signUpButton").onclick = function myfunction(){
+    let firstInput = document.getElementById("firstInput");
+    let secondInput = document.getElementById("secondInput");
+    if(firstInput.value === secondInput.value ){
+        alert("Login successful")
+    }
+    else{
+        alert("Passwords must be the same!")
+    }
+};
+myfunction();
